@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#120b16">
+<title>For My Favorite Person ♡</title>
+<style>
+:root{--bg:#100b16;--pink:#ff8fb3;--rose:#ff4f83;--cream:#fff0f5;--muted:#c9b8c8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#38203d 0,#100b16 55%);color:var(--cream);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+#stars,.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}.star{position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;opacity:.6;animation:twinkle 3s infinite alternate}
+@keyframes twinkle{to{opacity:.12;transform:scale(.5)}}.heart{position:absolute;bottom:-40px;color:#ff83ad;opacity:.5;animation:floatUp linear infinite}
+main{position:relative;z-index:1}.hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:35px 22px}.eyebrow{font:11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--pink)}h1{font-size:clamp(42px,12vw,76px);line-height:1.02;font-weight:normal;margin:22px 0 16px}.script{font-style:italic;color:var(--pink)}.sub{max-width:460px;line-height:1.8;color:var(--muted);font-size:16px}.glow{font-size:48px;filter:drop-shadow(0 0 20px #ff4f83);animation:pulse 2s infinite}@keyframes pulse{50%{transform:scale(1.12)}}.btn{display:inline-block;border:1px solid #ff8fb3;border-radius:999px;padding:14px 24px;background:linear-gradient(120deg,#ff4f83,#b54b89);color:white;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:1.4px;margin-top:25px;cursor:pointer;box-shadow:0 0 28px #ff4f8333}.section{padding:85px 20px;max-width:850px;margin:auto;text-align:center}.label{font:10px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--pink)}h2{font-weight:normal;font-size:clamp(32px,8vw,48px);margin:15px 0 20px}.line{width:65px;height:1px;background:var(--rose);margin:24px auto}.note{max-width:620px;margin:0 auto;color:#e7d6e3;line-height:1.95;font-size:17px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:35px}.card{background:#ffffff09;border:1px solid #ffb4cf30;padding:25px 18px;border-radius:18px;backdrop-filter:blur(8px)}.card .icon{font-size:27px}.card h3{font-size:21px;font-weight:normal;color:#ffb4cf}.card p{font:14px/1.7 Arial,sans-serif;color:var(--muted)}.memory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:30px}.memory{min-height:160px;border:1px dashed #ff8fb366;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;background:#ffffff06;color:var(--muted);font:13px/1.6 Arial,sans-serif}.memory strong{display:block;font:italic 19px Georgia;color:#ffb4cf;margin-top:8px}.memory img{width:100%;height:180px;object-fit:cover;border-radius:10px}.letter{max-width:650px;margin:30px auto 0;padding:28px 24px;border:1px solid #ff8fb344;border-radius:20px;background:#1e1222;color:#f7e5ef;line-height:1.95;text-align:left}.letter p{white-space:pre-line}.hidden-message{display:none;margin-top:24px;animation:appear .8s ease}@keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}footer{text-align:center;padding:50px 20px 70px;color:var(--muted);font:12px Arial,sans-serif;letter-spacing:1px}.tiny{font-size:12px;color:#b9a5b9;font-family:Arial,sans-serif;margin-top:30px}.music-note{font:12px Arial,sans-serif;color:var(--muted);margin-top:12px}
+@media(max-width:430px){.memory-grid{grid-template-columns:1fr 1fr}.memory{min-height:135px}.memory img{height:140px}}
+</style>
+</head>
+<body>
+<div id="stars"></div><div class="hearts" id="hearts"></div>
+<main>
+<section class="hero">
+  <div class="eyebrow">a little universe made just for you</div>
+  <div class="glow">♡</div>
+  <h1>Happy Birthday,<br><span class="script" id="herName">My Favorite Person</span></h1>
+  <p class="sub">Today is all about you. So I made you a tiny corner of the universe, just to remind you how special you are to me.</p>
+  <a class="btn" href="#surprise">OPEN YOUR SURPRISE&nbsp; ↓</a>
+  <div class="tiny">MADE WITH LOVE, JUST FOR YOU</div>
+</section>
+<section class="section" id="surprise">
+  <div class="label">chapter one · you</div><h2>In a world full of people,<br><span class="script">I'm glad it's you.</span></h2><div class="line"></div>
+  <p class="note">If I could give you one thing today, it would be the chance to see yourself through my eyes. Maybe then you'd understand how much light you bring into my little world. You deserve the gentlest happiness, the loudest laughter, and all the beautiful things life can offer.</p>
+</section>
+<section class="section">
+  <div class="label">chapter two · little things</div><h2>Reasons you are <span class="script">special</span></h2>
+  <div class="cards">
+    <div class="card"><div class="icon">✧</div><h3>Your smile</h3><p>It has a way of making an ordinary day feel a little magical.</p></div>
+    <div class="card"><div class="icon">♡</div><h3>Your heart</h3><p>The little kindnesses you show mean more than you know.</p></div>
+    <div class="card"><div class="icon">☾</div><h3>Just being you</h3><p>You don't have to be perfect to be someone wonderful.</p></div>
+  </div>
+</section>
+<section class="section">
+  <div class="label">chapter three · our memories</div><h2>Little moments, <span class="script">big feelings</span></h2>
+  <p class="note">Replace these spaces with your favorite photos and add a tiny caption for each memory.</p>
+  <div class="memory-grid">
+    <div class="memory">📷<strong>Our favorite memory</strong>Tap in your own photo later</div>
+    <div class="memory">🌷<strong>A day I'll remember</strong>Put a photo here</div>
+    <div class="memory">✨<strong>Your happiest smile</strong>Put a photo here</div>
+    <div class="memory">🌙<strong>Just us</strong>Put a photo here</div>
+  </div>
+</section>
+<section class="section">
+  <div class="label">chapter four · from my heart</div><h2>A letter for <span class="script">you</span></h2>
+  <div class="letter">
+    <p id="letterText">My favorite person,
+
+Happy birthday, my love. ♡
+
+I hope this new year of your life brings you peace when things feel heavy, courage when things feel uncertain, and a thousand little reasons to smile. Thank you for being yourself and for making my days brighter in ways you might not even notice.
+
+I can't promise every day will be perfect, but I hope you always remember that you matter, your dreams matter, and you deserve to be celebrated—not just today, but every day.
+
+Keep being your lovely self. The world is better with you in it.
+
+Happy birthday, sweetheart. Here's to more memories, more laughter, and more beautiful little moments.
+
+With all my love,
+Your person ♡</p>
+  </div>
+</section>
+<section class="section">
+  <div class="label">the final surprise</div><h2>One last little <span class="script">thing…</span></h2>
+  <p class="note">I saved one more message just for you. Ready?</p>
+  <button class="btn" id="reveal">UNLOCK YOUR MESSAGE ♡</button>
+  <div class="hidden-message" id="finalMessage"><div class="glow">💗</div><h2>You are so loved.</h2><p class="note">No matter how many birthdays come and go, I hope you never forget how precious you are. Today, the whole page is yours. Make a wish, birthday girl. ✨</p></div>
+</section>
+<footer>MADE WITH ♡ & A LITTLE BIT OF MAGIC<br><span id="footerName">FOR MY FAVORITE PERSON</span></footer>
+</main>
+<script>
+const stars=document.getElementById('stars');for(let i=0;i<90;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*3+'s';stars.appendChild(s)}
+const hs=document.getElementById('hearts');for(let i=0;i<18;i++){let h=document.createElement('span');h.className='heart';h.textContent=['♡','♥','✧'][i%3];h.style.left=Math.random()*100+'%';h.style.fontSize=(12+Math.random()*20)+'px';h.style.animationDuration=(9+Math.random()*13)+'s';h.style.animationDelay=(-Math.random()*18)+'s';hs.appendChild(h)}
+document.getElementById('reveal').addEventListener('click',()=>{document.getElementById('finalMessage').style.display='block';document.getElementById('reveal').textContent='MESSAGE UNLOCKED ♡';document.getElementById('finalMessage').scrollIntoView({behavior:'smooth',block:'center'})});
+/* PERSONALIZE: replace "My Favorite Person" with her name in the heading and footer if you like. */
+</script>
+</body>
+</html>
